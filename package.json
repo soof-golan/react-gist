@@ -47,5 +47,6 @@
     "test": "nwb test-react",
     "test:coverage": "nwb test-react --coverage",
     "test:watch": "nwb test-react --server"
-  }
+  },
+  "private": false
 }
