@@ -1,6 +1,6 @@
 {
-  "name": "react-gist",
-  "version": "1.2.4",
+  "name": "@soof-golan/react-gist",
+  "version": "1.3.5",
   "description": "Github Gist React component",
   "main": "lib/index.js",
   "module": "es/index.js",
@@ -12,12 +12,12 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/tleunen/react-gist.git"
+    "url": "git://github.com/soof-golan/react-gist.git"
   },
   "bugs": {
-    "url": "https://github.com/tleunen/react-gist/issues"
+    "url": "https://github.com/soof-golan/react-gist/issues"
   },
-  "homepage": "https://github.com/tleunen/react-gist",
+  "homepage": "https://github.com/soof-golan/react-gist",
   "keywords": [
     "react",
     "react-component",
@@ -38,7 +38,7 @@
     "react-dom": "^17.0.2"
   },
   "peerDependencies": {
-    "react": "0.14.x || ^15.0.0-rc || ^16.0.0-rc || ^17.0.0-rc"
+    "react": "0.14.x || ^15.0.0-rc || ^16.0.0-rc || ^17.0.0-rc || ^18.0.0-rc"
   },
   "scripts": {
     "build": "nwb build-react-component",
@@ -47,5 +47,6 @@
     "test": "nwb test-react",
     "test:coverage": "nwb test-react --coverage",
     "test:watch": "nwb test-react --server"
-  }
+  },
+  "private": false
 }
